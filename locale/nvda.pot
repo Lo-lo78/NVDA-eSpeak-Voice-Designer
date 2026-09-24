@@ -1,0 +1,874 @@
+# Translations template for eSpeak Voice Designer.
+# Copyright (C) 2026 ORGANIZATION
+# This file is distributed under the same license as the eSpeak Voice Designer project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: eSpeak Voice Designer 0.2.42\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-09-01 17:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:29
+msgid "This is an eSpeak voice preview."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:31
+msgid "New variant"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:125
+msgid "0 Unstressed"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:126
+msgid "1 Reduced"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:127
+msgid "2 Secondary stress"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:128
+msgid "3 Unstressed word"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:129
+msgid "6 Primary stress"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:130
+msgid "7 Stressed syllable"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:134
+msgid "Standard eSpeak - formant synthesis, Klatt disabled"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:135
+msgid "Klatt 6 - SpeechPlayer"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:142
+msgid "0 - harmonics through F1, softer"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:143
+msgid "1 - harmonics through F2"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:144
+msgid "2 - harmonics through F3"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:145
+msgid "3 - harmonics through F4"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:146
+msgid "4 - harmonics through F5, standard shape"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:147
+msgid "5 - harmonics through F5, squarer peaks"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:151
+msgid "From language"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:152
+msgid "1 - Default"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:153
+msgid "2 - Less intonation"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:154
+msgid "3 - Less intonation, no comma rise"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:155
+msgid "4 - Rise at end of sentence"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:159
+msgid "None"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:160
+msgid "Testing - in development"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:161
+msgid "Mature - stable"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:268
+msgid "Elevated installation is available only on Windows."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:323
+msgid "Installation cancelled."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:325
+#, python-brace-format
+msgid "Unable to start elevated installation (error {err})."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:345
+#, python-brace-format
+msgid "Elevated copy returned exit code {code}."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:797 globalPlugins/espeakVoiceDesigner/__init__.py:3314
+msgid "standard voice"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:810
+msgid "No variant - standard voice"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:842
+#, python-brace-format
+msgid "Personal {language}: {name}"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:1114
+#: globalPlugins/espeakVoiceDesigner/__init__.py:1148
+msgid "The current synthesizer is not eSpeak NG."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:1118
+#: globalPlugins/espeakVoiceDesigner/__init__.py:1153
+#, python-brace-format
+msgid "Unable to access the NVDA eSpeak driver: {error}"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:1121
+msgid "This eSpeak build does not expose espeak_SetVoiceByName."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:1136
+#, python-brace-format
+msgid "espeak_SetVoiceByName returned code {code}"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:1157
+msgid "eSpeak NG is not initialized."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:1159
+msgid "This eSpeak build does not expose espeak_SetVoiceByFile."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:1163
+msgid "The working voice path is too long for this eSpeak build."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:1174
+#, python-brace-format
+msgid "espeak_SetVoiceByFile returned code {code}"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:1463
+msgid "eSpeak NG must be the active NVDA synthesizer to use eSpeak Voice Designer."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:1626
+msgid "Language / eSpeak voice:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:1639
+msgid "NVDA eSpeak variants:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:1650
+msgid "Saved variants:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:1655
+msgid "Saved variants, F2 renames, Delete removes the selected variant"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:1659
+msgid "Section:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:1664
+msgid "Section"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:1700
+msgid "Preview and save"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:1702
+msgid "Preview text:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:1704
+msgid "Preview text"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:1709
+msgid "Variant name:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:1712
+msgid "Variant name"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:1717
+msgid "Preview"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:1720
+msgid "Save variant"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:1723
+msgid "Install in NVDA"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:1724
+msgid "Install variant in NVDA, Ctrl+Shift+S"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:1727
+msgid "Restore base (Ctrl+Delete)"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:1730
+msgid "Help"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:1731
+msgid "Open help, Alt+H"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2225
+msgid "Klatt 6 SpeechPlayer clean, formant resonances damped"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2234
+msgid "Base variant widths and resonances restored"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2242
+msgid "Standard eSpeak formant synthesis, Klatt disabled"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2360
+msgid "Voice"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2364
+msgid "Male"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2364
+msgid "Female"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2364
+msgid "Unknown"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2365
+msgid "Gender, metadata only:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2369
+msgid "Variant pitch P1, base Hz:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2373
+msgid "Variant pitch P2, second range value:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2377
+msgid "Pitch span P2 minus P1:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2380
+msgid "Internal eSpeak base P1 minus 9 Hz:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2382
+msgid "Nominal formant adaptation factor from P1 percent:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2385
+msgid "Voicing:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2390
+msgid "Unvoiced consonants:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2396
+msgid "Voiced consonants:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2401
+msgid "Roughness:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2404
+msgid "Flutter, pitch micro-variation:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2409
+msgid "Clarity / formant harmonic construction:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2415
+msgid ""
+"Clarity 0-4 progressively extends harmonic construction from F1 to F5. Value 5 keeps F1-F5 but "
+"uses squarer peaks. It mainly affects standard formant synthesis; Klatt 6 / SpeechPlayer may not "
+"follow it."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2422
+msgid "Speed %:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2424
+msgid "Echo delay ms:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2426
+msgid "Echo amplitude %:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2540
+msgid "Consonants"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2544
+msgid ""
+"The first three controls are Voice Designer macros. They are not written to the variant file: "
+"their result is converted into the standard eSpeak consonants and voicing parameters. The real "
+"controls below can still be edited directly."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2553
+msgid "Macro consonant strength %:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2558
+msgid "Macro voiced / unvoiced balance, negative unvoiced, positive voiced:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2563
+msgid "Macro voiced consonant and sonorant body %:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2571
+msgid "Real eSpeak - unvoiced consonants:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2577
+msgid "Real eSpeak - voiced consonants:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2583
+msgid "Real eSpeak - Voicing / voiced body:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2589
+msgid "Real eSpeak - Breath 1:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2597
+#, python-brace-format
+msgid "Formants {first}-{last}"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2602
+msgid ""
+"With Klatt 6 / SpeechPlayer, Frequency, Offset and Width for F1-F6 are the same parameters shown "
+"in the Klatt section. Formant Strength belongs to the standard formant synthesizer and "
+"SpeechPlayer does not use it directly."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2614
+#, python-brace-format
+msgid "Formant {index} Frequency %:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2618
+#, python-brace-format
+msgid "Formant {index} Strength %:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2622
+#, python-brace-format
+msgid "Formant {index} Width / damping %:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2628
+#, python-brace-format
+msgid "Formant {index} Offset Hz:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2636
+msgid "Breath"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2640
+#, python-brace-format
+msgid "Breath formant {index}:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2650
+#, python-brace-format
+msgid "Breath width {index}:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2782
+msgid "Tone"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2786
+msgid ""
+"Tone is the harmonic amplitude curve for the voiced part of the voice. 128 is neutral; points are"
+" interpolated up to 8 kHz. The macros below are Designer-only controls: only standard eSpeak tone"
+" points are saved in the variant file."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2795
+msgid "Tone macro Darker minus / Brighter plus:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2799
+msgid "Tone macro Body, less / more:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2803
+msgid "Tone macro Presence, less / more:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2808
+#, python-brace-format
+msgid "{count} points"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2809
+msgid "Number of Tone points:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2816
+#, python-brace-format
+msgid "Tone {index} Frequency Hz:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2821
+#, python-brace-format
+msgid "Tone {index} Amplitude, 128 neutral:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2830
+msgid "Klatt"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2831
+msgid "Klatt engine / source:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2840
+msgid ""
+"Standard eSpeak uses normal formant synthesis. Klatt 6 SpeechPlayer uses Voicing, Breath 1 / "
+"aspiration (the first value written in the breath directive), F1-F6 and F1-F4 bandwidths. "
+"Increasing width increases bandwidth, lowers Q and damps metallic or bell-like resonances. F5 and"
+" F6 already use a very wide fixed bandwidth."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2850
+msgid "Klatt 6 global resonance damping %:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2857
+msgid "Klatt Voicing:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2864
+msgid "Klatt pitch Flutter:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2871
+msgid "Klatt 6 SpeechPlayer Aspiration / Breath 1:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2881
+#, python-brace-format
+msgid "Klatt F{index} Frequency %:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2889
+#, python-brace-format
+msgid "Klatt F{index} Offset Hz:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2897
+msgid " (higher = less resonance; SpeechPlayer: F1-F4)"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2899
+#, python-brace-format
+msgid "Klatt F{index} Width / damping %{suffix}:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2911
+msgid "Stress Length"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2912
+msgid ""
+"Relative vowel length for the 8 stress levels. Changing a value automatically makes the voice a "
+"New variant."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2920
+msgid "Stress Add"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2921
+msgid ""
+"Correction added to Stress Length. eSpeak applies Stress Length before Stress Add; the Designer "
+"preserves this order automatically."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2929
+msgid "Stress Amp"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2930
+msgid "Relative vowel amplitude for the 8 stress levels."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2939
+msgid "Metadata"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2943
+msgid ""
+"Variant metadata. Age, Maintainer and Status use compatible eSpeak attributes; Description, "
+"Version, License and Website/contact are saved as // comments and do not change the sound."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2950
+msgid "Voice age, metadata:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2952
+msgid "Maintainer / Author:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2954
+msgid "Status:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2956
+msgid "Description:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2958
+msgid "Voice version:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2960
+msgid "License:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2962
+msgid "Website / contact:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2967
+msgid "Internals and backends"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2968
+msgid ""
+"These options are accepted by the eSpeak parser but are poorly or not documented. They remain "
+"inactive until you select the corresponding Enable check box."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2979
+#, python-brace-format
+msgid "Enable {label}"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2981
+#, python-brace-format
+msgid "{label} value:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2986
+msgid "Enable fast_test2"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2988
+msgid "Fast test2:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2992
+msgid "Enable MBROLA backend"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2994
+msgid "MBROLA voice:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2996
+msgid "MBROLA phoneme translation:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:2998
+msgid "MBROLA sample rate:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3016
+msgid "Help file not found."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3019
+#, python-brace-format
+msgid "Unable to open help: {error}"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3315
+#, python-brace-format
+msgid "Variant {name} loaded"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3342
+msgid "Select a saved variant to rename first"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3346
+msgid "F2 renames only saved variants, not NVDA eSpeak variants"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3353
+msgid "New file name for the saved variant:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3354
+msgid "Rename saved variant"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3365
+msgid "The name cannot be empty"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3371
+#, python-brace-format
+msgid "The variant is already named {name}"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3374
+#, python-brace-format
+msgid "A saved variant named {name} already exists"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3392
+msgid "Unable to read the variant file"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3429
+#, python-brace-format
+msgid "Variant renamed to {name}"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3432
+#, python-brace-format
+msgid "Unable to rename the variant: {error}"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3443
+msgid "Select a saved variant to delete first"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3447
+msgid "Delete only removes saved personal variants"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3454
+#, python-brace-format
+msgid "Permanently delete the personal variant {name}?"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3455
+msgid "Delete saved variant"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3460
+msgid "Deletion cancelled"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3496
+#, python-brace-format
+msgid "Variant {name} deleted. The current voice remains as a New variant"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3499
+#, python-brace-format
+msgid "Unable to delete the variant: {error}"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3517
+msgid "current / standard voice"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3518
+#, python-brace-format
+msgid "Restored {name}"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3659
+#, python-brace-format
+msgid "eSpeak Voice Designer error: {error}"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3668
+msgid "Before the parentheses (this part is in parentheses) after the parentheses."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3670
+msgid "First sentence. second sentence. third sentence."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3674
+msgid "I am going to listen. Here is an example. I am waiting."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3676
+msgid "This sentence is used to hear the pause between all words."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3709
+#, python-brace-format
+msgid "Klatt {number} legacy - loaded variant only"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3777
+msgid ""
+"Name to save the variant as. Keep the same name to overwrite, or change it to create a new "
+"variant:"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3778
+msgid "Save variant as"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3813
+msgid "The variant name cannot be empty"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3826
+#, python-brace-format
+msgid "A saved variant named {name} already exists. Do you want to overwrite it?"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3827
+msgid "Overwrite variant"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3832
+msgid "Save cancelled"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3862
+#, python-brace-format
+msgid "Variant {name} saved for {language}"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3865
+#, python-brace-format
+msgid "Unable to save the variant: {error}"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3876
+msgid "Unable to find the NVDA eSpeak variants folder."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3878
+#, python-brace-format
+msgid "The eSpeak variants folder does not exist: {path}"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3893
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3902
+msgid "Confirm administrator access to install the variant in NVDA."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3914
+#, python-brace-format
+msgid "Unable to install the variant in NVDA: {error}"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3918
+msgid "Variant installation was cancelled or failed."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3939
+#, python-brace-format
+msgid "Variant {name} installed in NVDA. The previous version was saved in the add-on backup."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:3941
+#, python-brace-format
+msgid "Variant {name} installed in the NVDA eSpeak variants folder."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:4075
+msgid "Unable to activate eSpeak NG automatically."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:4078
+msgid "eSpeak NG is not available in this NVDA installation."
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:4125
+#, python-brace-format
+msgid ""
+"Unable to open {name}.\n"
+"\n"
+"{errorType}: {error}"
+msgstr ""
+
+#: globalPlugins/espeakVoiceDesigner/__init__.py:4145
+msgid "Open eSpeak Voice Designer."
+msgstr ""
+
+msgid "NVDA's native eSpeak variants folder could not be found."
+msgstr ""
+
+msgid "No short writable path is available for the live eSpeak variant."
+msgstr ""
+
+msgid "The live eSpeak variant name is too long for this eSpeak build."
+msgstr ""
+
+msgid "The variant is Modified. Save it first with Ctrl+S before installing it in NVDA."
+msgstr ""
+
+#, python-brace-format
+msgid ""
+"An NVDA eSpeak variant with that name already exists and was left unchanged. The new variant was "
+"installed as {name}."
+msgstr ""
+

@@ -1,0 +1,28 @@
+eSpeak Voice Designer localization
+=================================
+
+The Python source is English and uses NVDA's standard addonHandler.initTranslation() gettext mechanism.
+
+Base language:
+- English (strings in globalPlugins/espeakVoiceDesigner/__init__.py and manifest.ini)
+
+Included translations:
+- Italian: locale/it
+- Spanish: locale/es
+- French: locale/fr
+
+Documentation:
+- doc/en/readme.html
+- doc/it/readme.html
+- doc/es/readme.html
+- doc/fr/readme.html
+
+Unsupported NVDA interface languages use the English source strings. The Help command also falls back to doc/en/readme.html.
+
+To update translations after changing source strings:
+1. Regenerate locale/nvda.pot from the Python source.
+2. Update each locale/<lang>/LC_MESSAGES/nvda.po.
+3. Compile each PO to nvda.mo.
+4. Update the four readme.html files if the user-visible behavior changed.
+
+Do not translate eSpeak directive names stored inside generated voice files. Saved variants must remain standard eSpeak-compatible text files.

@@ -1,0 +1,12 @@
+* text=auto
+*.py text eol=lf
+*.ini text eol=lf
+*.po text eol=lf
+*.pot text eol=lf
+*.html text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.mo binary
+*.nvda-addon binary
